@@ -1,4 +1,4 @@
-# vue-modal
+# vue2-modal
 
 A vue based modal plugin with `modal` component being defined globally.
 
@@ -6,9 +6,9 @@ A vue based modal plugin with `modal` component being defined globally.
 ## Install
 
 ``` bash
-$ npm install vue-modal
+$ npm i @johnnywang/vue2-modal
 // or
-$ yarn add vue-modal
+$ yarn add @johnnywang/vue2-modal
 ```
 
 
