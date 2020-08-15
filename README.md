@@ -29,7 +29,7 @@ Fisrt to install in your `main.js`
 
 ```js
 import Vue from 'vue';
-import VueModal from 'vue-modal';
+import VueModal from '@johnnywang/vue2-modal';
 import App from './App.vue';
 import ErrorModal from './components/ErrorModal.vue';
 
@@ -142,7 +142,7 @@ export default {
 ### Outside components
 
 ```js
-import { useModal } from 'vue-modal';
+import { useModal } from '@johnnywang/vue2-modal';
 
 const modal = useModal();
 // ...
