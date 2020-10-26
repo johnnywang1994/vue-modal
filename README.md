@@ -1,4 +1,4 @@
-# vue-modal
+# vue2-modal
 
 A vue based modal plugin with `modal` component being defined globally.
 
@@ -6,9 +6,9 @@ A vue based modal plugin with `modal` component being defined globally.
 ## Install
 
 ``` bash
-$ npm install vue-modal
+$ npm i @johnnywang/vue2-modal
 // or
-$ yarn add vue-modal
+$ yarn add @johnnywang/vue2-modal
 ```
 
 
@@ -29,7 +29,7 @@ Fisrt to install in your `main.js`
 
 ```js
 import Vue from 'vue';
-import VueModal from 'vue-modal';
+import VueModal from '@johnnywang/vue2-modal';
 import App from './App.vue';
 import ErrorModal from './components/ErrorModal.vue';
 
@@ -142,7 +142,7 @@ export default {
 ### Outside components
 
 ```js
-import { useModal } from 'vue-modal';
+import { useModal } from '@johnnywang/vue2-modal';
 
 const modal = useModal();
 // ...
