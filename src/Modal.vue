@@ -5,6 +5,7 @@
       v-show="showModal"
       @click.self="onWrapperClicked"
     >
+      <slot></slot>
       <div class="loading" v-if="showModal && loading">
         <slot name="loading"></slot>
       </div>
